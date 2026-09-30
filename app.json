@@ -1,11 +1,12 @@
 {
   "expo": {
     "name": "QuestClass",
-    "slug": "QuestClass",
+    "slug": "questclass",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#282A36",
     "ios": {
       "supportsTablet": true
     },
@@ -20,6 +21,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-image",
+      "expo-font"
+    ]
   }
 }
